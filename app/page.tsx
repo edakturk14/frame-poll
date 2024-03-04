@@ -1,6 +1,4 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import { Button, Frog } from 'frog';
+export const runtime = 'edge'
 
 const image = 'https://i.imgur.com/jkNjTAe.gif'
 
