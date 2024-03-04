@@ -3,17 +3,6 @@ export const runtime = 'edge'
 const image = 'https://i.imgur.com/jkNjTAe.gif'
 
 export default function Home() {
-
-  return (
-    <html lang="en">
-      <body>
-        <h1>Welcome to my app!</h1>
-      </body>
-    </html>
-  );
-}
-
-export async function generateMetadata() {
   const meta = {
     'og:image': image,
     'fc:frame': 'vNext',
