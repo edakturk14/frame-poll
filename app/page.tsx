@@ -15,7 +15,7 @@ export default function Home() {
   );
 }
 
-export async function frame() {
+export async function generateMetadata() {
   const meta = {
     'og:image': image,
     'fc:frame': 'vNext',
